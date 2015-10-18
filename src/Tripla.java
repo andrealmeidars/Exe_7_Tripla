@@ -2,9 +2,13 @@
 public class Tripla {
 
 
-    public boolean isTripla(){
+    public boolean isTripla(int valueA, int valueB){
+
+        if (valueA == valueB){
+            return  true;
+        }
 
 
-        return true;
+        return false;
     }
 }

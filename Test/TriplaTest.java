@@ -14,12 +14,15 @@ public class TriplaTest {
 
     }
 
+
     @Test
-    public void showIf2NumbersIsEqual(){
+    public void showIf2NumbersIsEqualSending2Values(){
 
-        assertThat(tripla.isTripla(), is(true));
-
+        assertThat(tripla.isTripla(2,2), is(true));
     }
+
+
+
 
 
 
