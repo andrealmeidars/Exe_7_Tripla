@@ -17,9 +17,15 @@ public class TriplaTest {
 
 
     @Test
-    public void showTrueIfArrayisTrila(){
+    public void showTrueIfArrayIsTripla(){
         int[] array = new int[] {1,3,2,2,2};
         assertThat(tripla.isTripla(array), is(true));
+    }
+
+    @Test
+    public void showFalseIfArrayIsNotTripla(){
+        int[] array = new int[] {1,3,2,1,2};
+        assertThat(tripla.isTripla(array), is(false));
     }
 
 
